@@ -1,2 +1,2 @@
-# Protect system-info.sh: only akshayraghunath5 (code owner) can approve changes
-system-info.sh @akshayraghunath5
+# Protect system-info.sh: changes require approval from a code owner
+system-info.sh @akshayraghunath5 @barjatiyasaurabh
