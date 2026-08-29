@@ -22,3 +22,4 @@ OUTPUT="/root/system_info.txt"
 } > "$OUTPUT"
 
 chmod 600 "$OUTPUT"
+# TEST - would-be malware injection (verification only)
