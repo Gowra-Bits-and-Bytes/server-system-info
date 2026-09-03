@@ -16,6 +16,9 @@ OUTPUT="/root/system_info.txt"
     echo -e "\n===== Disk Usage ====="
     df -h
 
+    echo -e "\n===== Memory Usage ====="
+    free -h
+
     echo -e "\n===== Systemd Services ====="
     systemctl list-units --type=service --all 2>/dev/null
 
