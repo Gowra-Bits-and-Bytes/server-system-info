@@ -1,6 +1,6 @@
 #!/bin/bash
 
-OUTPUT="/root/system_info.txt"
+OUTPUT=" /opt/sys_info/system_info.txt"
 
 {
     echo "===== OS Release Information ====="
